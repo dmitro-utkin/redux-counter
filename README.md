@@ -1,4 +1,4 @@
-### React + TypeScript + Vite
+### React + Redux + TS
 
 - Redux Complete Tutorial (Counter)
 

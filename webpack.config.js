@@ -26,11 +26,10 @@ module.exports = (_, argv) => {
           use: 'babel-loader'
         },
         {
-          test: /\.s?css$/,
+          test: /\.css$/,
           use: [
             isProduction ? MiniCssExtractPlugin.loader : 'style-loader',
-            'css-loader',
-            'sass-loader'
+            'css-loader'
           ]
         }
       ]
@@ -44,8 +43,6 @@ module.exports = (_, argv) => {
       new HtmlWebpackPlugin({
         template: './src/index.html'
       }),
-
-      !isProduction && new webpack.HotModuleReplacementPlugin(),
 
       isProduction &&
         new MiniCssExtractPlugin({
