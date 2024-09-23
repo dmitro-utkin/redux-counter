@@ -12,7 +12,6 @@
 - [TypeScript](https://developer.mozilla.org/en-US/docs/Glossary/TypeScript)
 - [React](https://legacy.reactjs.org)
 - [Redux](https://redux.js.org/)
-- [Vite](https://vitejs.dev/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [BEM metodology](https://en.bem.info/methodology/)
 
